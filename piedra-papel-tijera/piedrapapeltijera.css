@@ -1,0 +1,62 @@
+body {
+    font-family: 'Trebuchet MS';
+}
+
+.wrapper {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.score-area {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+    .score-area div {
+        display: inline-block;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-weight: bold;
+    }
+
+.play-area {
+    height: 50px;
+    vertical-align: middle;
+    font-size: 20px;
+    display: table;
+    text-align: center;
+    margin: auto;
+}
+
+    .play-area span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+.actions-area {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+    .actions-area .play-buttons-area {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+        .actions-area .play-buttons-area button {
+            width: 32%;
+        }
+
+    .actions-area .game-buttons-area {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+        .actions-area .game-buttons-area button {
+            width: 100%;
+        }
