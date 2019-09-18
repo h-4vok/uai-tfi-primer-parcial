@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>El Ahorcado</title>
+    <script type="text/javascript" src="ahorcado.js"></script>
+    <link rel="stylesheet" href="ahorcado.css" />
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="container hangman-area">
+            <div class="hangman-area-drawing">
+                <div id="shaft"></div>
+                <div id="pole"></div>
+                <div id="rope"></div>
+                <div id="base"></div>
+                <div id="player">
+                    <div id="player-wrapper">
+                        <div id="player-head" class="head"></div>
+                        <div id="player-left-arm" class="left-arm left-extremity"></div>
+                        <div id="player-body" class="playerbody"></div>
+                        <div id="player-right-arm" class="right-arm right-extremity"></div>
+                        <div id="player-left-leg" class="left-leg left-extremity"></div>
+                        <div id="player-right-leg" class="right-leg right-extremity"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="hangmang-area-word">
+                <label class="word-area" id="secret-word-label">&nbsp;</label>
+            </div>
+        </div>
+        <div class="container player-area">
+            <div class="input-area">
+                <label>Adivine una letra: </label>
+                <input class="letter-input" type="text" disabled="disabled" readonly="readonly" id="letter-input" maxlength="1" />
+            </div>
+            <div class="input-area">
+                <button class="letter-button" disabled="disabled" id="try-word">Intentar Letra</button>
+            </div>
+        </div>
+        <div class="container action-area">
+            <button class="button-area-button" id="new-game">Nuevo Juego</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
